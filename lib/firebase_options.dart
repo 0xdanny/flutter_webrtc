@@ -47,29 +47,28 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyD5Lx7L-0tvAIHb4xsv1GeJy_p6B-2mXTE',
-    appId: '1:525406201811:android:2da8ad60f9e24f5a3ef126',
-    messagingSenderId: '525406201811',
-    projectId: 'flutter-webrtc--demo',
-    storageBucket: 'flutter-webrtc--demo.appspot.com',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    storageBucket: '',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDUEVrNjTHsy9s3TD4p467bNb3Tbm7WSHM',
-    appId: '1:525406201811:ios:1148ca527f5dbb2d3ef126',
-    messagingSenderId: '525406201811',
-    projectId: 'flutter-webrtc--demo',
-    storageBucket: 'flutter-webrtc--demo.appspot.com',
-    iosBundleId: 'com.example.flutterWebrtc',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    storageBucket: '',
+    iosBundleId: '',
   );
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyA7MK4DNv_AiDJ1SDiZrjd7nXndsnerqFM',
-    appId: '1:525406201811:web:73bc7a40d0fb4c843ef126',
-    messagingSenderId: '525406201811',
-    projectId: 'flutter-webrtc--demo',
-    authDomain: 'flutter-webrtc--demo.firebaseapp.com',
-    storageBucket: 'flutter-webrtc--demo.appspot.com',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    authDomain: '',
+    storageBucket: '',
   );
-
 }
