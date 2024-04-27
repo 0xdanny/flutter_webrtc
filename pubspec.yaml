@@ -1,0 +1,29 @@
+name: flutter_webrtc_demo
+description: "A Flutter & Firebase WebRTC demo."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  cloud_firestore: ^4.17.2
+  firebase_core: ^2.30.1
+  flutter:
+    sdk: flutter
+  flutter_hooks: ^0.20.5
+  flutter_webrtc: ^0.10.3
+  hooks_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  riverpod_generator: ^2.4.0
+  build_runner: ^2.4.9
+  custom_lint: ^0.6.4
+  riverpod_lint: ^2.3.10
+
+flutter:
+  uses-material-design: true
